@@ -1,0 +1,135 @@
+/* .aboutMe {
+  position: relative;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.aboutMe::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: rgb(77, 73, 81);
+  left: 42%;
+  bottom: 0;
+  width: 16%;
+  transform: scaleX(0);
+  transition: 0.7s;
+}
+
+.aboutMe:hover::after {
+  transform: scaleX(1);
+}
+.aboutMe:hover {
+  color: rgba(16, 16, 226, 0.871);
+} */
+
+.aboutMe{
+  cursor: pointer;
+}
+
+/* cards. */
+
+.cards {
+  width: 310px;
+  height: 400px;
+  /* background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%); */
+  /* background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%); */
+  /* background-image: linear-gradient(163deg, #00ff75 0%, #ff00cc 100%); */
+  background-image: linear-gradient(163deg, #ff5733 0%, #ffc300 100%);
+  /* background-image: linear-gradient(163deg, #ff5733 30%, #1bea67 40%, #f39c12 80%); */
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+#CARDS {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 3vw;
+}
+
+.card {
+  width: 310px;
+  height: 400px;
+  background-color: #5f5959;
+  /* background-color: gray; */
+  border-radius: 8px;
+  color: white;
+
+  border-radius: 5px;
+  padding-top: 13px;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.cards:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+.cardImg {
+  border: 1px solid green;
+  border-radius: 8px;
+  width: 90%;
+  height: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+.cardImg .cardImg1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .cardText {
+  padding: 0.6vw 0.8vw;
+  text-align: center;
+}
+.card .cardText h3 {
+  font-size: 1.5rem;
+  color: #000;
+  cursor: pointer;
+}
+
+
+/* dark button */
+
+.theme-options {
+  width: 100%;
+  display: none;
+  position: absolute;
+  background-color: #b7aaaa;
+  transition: all 0.5s ease-in;
+  /* padding: 12px 0; */
+}
+
+.loginLi:hover .theme-options {
+  display: block;
+}
+
+.theme-options a {
+  width: 100%;
+  display: block;
+  color: #333; /* Change as needed */
+  text-decoration: none;
+  /* padding: 12px 0; */
+}
+
+.theme-options a:hover {
+  background-color: #f0f0f0; /* Change as needed */
+}
+
+.dark-theme {
+  width: 100%;
+  padding: 12px;
+  color: #000; /* Change as needed */
+}
+
+.light-theme {
+  width: 100%;
+  padding: 12px;
+  color: #fff; /* Change as needed */
+  /* background-color: #000; Change as needed */
+}

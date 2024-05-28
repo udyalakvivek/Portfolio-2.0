@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Pandey</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+        integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+    <!-- css only -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- js file -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header start  -->
+    <header class="header">
+        <nav>
+            <!-- responsive menu icon -->
+
+            <ul>
+                <li><a id="logoA" href="#home"><img id="Logo1" src="Logo1.png" alt=""></a></li>
+                <li class="hideOnMobile"><a href="#home"> <i class="fas fa-home"></i>Home</a></li>
+                <li class="hideOnMobile"><a href="#About"><i class="fa-solid fa-user"></i>About</a></li>
+                <li class="hideOnMobile"><a href="#Projects"><i class="fa-solid fa-file"></i>Projects</a></li>
+                <li class="hideOnMobile"><a href="#Contact"><i class="fa-solid fa-comment"></i>Contact</a></li>
+                <!-- <li class="hideOnMobile loginLi"><a href="#" id="moonli"><i class="fa-solid fa-moon"></i>Dark<i
+                            class="fa-solid fa-chevron-down"></i></a>
+
+                </li> -->
+
+
+
+                <li class="BAR" onclick="showSidebar()"> <a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick="hideslidebar()"> <a href="#"><i class="fa-solid fa-xmark"></i> </a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">contact</a></li>
+                <!-- <li><a href="#Login">Feedback</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!--Header(end)-->
+
+
+    <!--Home(start)-->
+    <div id="home">
+        <div class="left">
+            <h3>Hello,</h3>
+            <h4>I am Vivek Pandey....</h4>
+            <p>A Aspiring Web developer</p>
+            <button type="button" class="btn1"><a class="myresume" href="#About">See More About Vivek ..!</a></button>
+
+        </div>
+
+    </div>
+
+
+
+    <!--Home(end)-->
+
+
+    <!--About(start)-->
+    <div id="About">
+        <div class="aboutfirst_text">
+            <h2 class="aboutMe">About Me</h2>
+        </div>
+        <div class="imgT">
+            <div class="img">
+                <img src="pic1.avif" alt="Image">
+            </div>
+            <div class="aboutContent">
+                <p>Hey, I'm Vivek Pandey, currently pursuing my BCA degree at Ayodhya University, Noida. My passion for
+                    web development stems from the thrill of transforming ideas into digital reality. Proficient in
+                    HTML, CSS, JavaScript, jQuery, Bootstrap, and React, I specialize in crafting visually appealing and
+                    seamlessly functional websites and applications. With meticulous attention to detail and a keen eye
+                    for user experience, I ensure that every project I undertake not only meets but exceeds
+                    expectations.
+
+                    In my portfolio, I showcase not only my skills but also various projects I've worked on. From
+                    responsive websites to interactive web applications, each project reflects my commitment to quality
+                    and innovation. I'm dedicated to continuous learning, staying abreast of the latest technologies and
+                    trends in the ever-evolving world of web development.
+
+                    Let's collaborate and turn your vision into reality in the vast and dynamic realm of the web!
+
+                </p>
+
+            </div>
+            <!-- <button class="btn2"><a href="">Hire Me</a></button> -->
+            <button class="btn1"><a class="myresume"
+                    href="https://drive.google.com/file/d/1CM9um5q20g5x8qxTl-obUbwQoflzaUOB/view?usp=drive_link">My
+                    Resume</a></button>
+        </div>
+
+    </div>
+
+
+    <!--About(end) -->
+
+
+    <!--Projects(start)-->
+
+    <div id="Projects">
+        <div>
+            <h2 class="aboutMe">Projects</h2>
+        </div>
+        <div id="CARDS">
+
+
+            <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="calculator.avif" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>Simple Calculator</h3>
+                        <p>Interactive calculator with modern design, powered by HTML, CSS, and JavaScript, highlighting frontend proficiency in my portfolio.</p>
+                    </div>
+                </Div>
+            </div>
+
+            <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="quete generator.jpg" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>Quate Generator</h3>
+                        <p>Engage with a dynamic quote generator utilizing APIs, HTML, CSS, and JavaScript, illustrating frontend and API integration skills in my portfolio..</p>
+                    </div>
+                </Div>
+            </div>
+
+            <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="currency.avif" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>Currency convertor</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta alias cum ratione animi
+                            molestias amet, culpa officia eum quas obcaecati.</p>
+                    </div>
+                </Div>
+            </div>
+
+
+            <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="tic.webp" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>Tic Toc Toi Game</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta alias cum ratione animi
+                            molestias amet, culpa officia eum quas obcaecati.</p>
+                    </div>
+                </Div>
+            </div>
+
+            <!-- <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="pic1.avif" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>project Name </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta alias cum ratione animi
+                            molestias amet, culpa officia eum quas obcaecati.</p>
+                    </div>
+                </Div>
+            </div> -->
+<!-- 
+            <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="pic1.avif" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>project Name </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta alias cum ratione animi
+                            molestias amet, culpa officia eum quas obcaecati.</p>
+                    </div>
+                </Div>
+            </div> -->
+
+            <!-- <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="pic1.avif" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>project Name </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta alias cum ratione animi
+                            molestias amet, culpa officia eum quas obcaecati.</p>
+                    </div>
+                </Div>
+            </div> -->
+
+            <!-- <div class="cards">
+                <Div class="card">
+                    <div class="cardImg">
+                        <a href=""><img src="pic1.avif" alt="" class="cardImg1"></a>
+                    </div>
+                    <div class="cardText">
+                        <h3>project Name </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta alias cum ratione animi
+                            molestias amet, culpa officia eum quas obcaecati.</p>
+                    </div>
+                </Div>
+            </div> -->
+        </div>
+
+    </div>
+
+
+    <!--Projects(end)-->
+
+
+    <!--Contact(end)-->
+
+    <div id="Contact">
+        <div>
+            <h2 class="aboutMe">Contact- us</h2>
+        </div>
+        <em>I'd love your feedback!</em>
+        <div class="input">
+            <div class="left">
+                <img src="img5.webp" alt="" class="ram">
+            </div>
+            <div class="right">
+                <a href="https://maps.app.goo.gl/mqzHLsLxJfgSjDGXA">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Ayodhya,UP Bharat
+                </a> <br>
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    Phone: +91-730912****
+                </a> <br>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email: udyalakvivek@gmail.com
+                </a> <br>
+                <p>"Swing by for a cup of <i class="fa-solid fa-mug-hot"></i> or leave me a note:"</p>
+                <form action="" class="form">
+
+                    <input type="text" placeholder="NAME...." required>
+                    <input type="email" placeholder="EMAIL..." required>
+                    <br>
+                    <input type="text" placeholder="MESSAGE..." id="input3" required>
+                    <button id="button">
+                        <i class="fa fa-paper-plane"></i>
+                        SEND MESSAGE
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <!-- © Udyala KV 2021 | Designed & Developed By:
+            <a href="http://udyala.me/" rel="author"></a> -->
+            <div>
+                <a href="" id="home2"><i class="fa fa-arrow-up"></i>
+                    Back To Top
+                </a>
+            </div>
+            <div class="icons">
+
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.telegram.com"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+                <p>This Website was made by @Vivek Pandey😇✌️</p>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
