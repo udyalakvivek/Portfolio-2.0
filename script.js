@@ -1,6 +1,6 @@
 function showSidebar() {
     const sidebar = document.querySelector(".sidebar")
-    sidebar.style.display = 'flex'
+    sidebar.style.display = 'block'
 }
 function hideslidebar() {
     console.log("hello")
@@ -12,7 +12,7 @@ function hideslidebar() {
 let button = document.querySelector('#button');
 button.addEventListener('click', () => {
     alert(`Your Message has been sent`);
-    // console.log("Hello i am clicked")
+    
 });
 
 
