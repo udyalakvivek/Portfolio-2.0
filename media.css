@@ -19,7 +19,7 @@
 #CARDS {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 19px;
   margin-top: 3vw;
 }
 
@@ -240,7 +240,7 @@ html {
   }
   .btn-G .btn-custom {
     height: 60px;
-    width: 60vw;
+    width: 45vw;
     margin-bottom: 10px;
   }
 }
