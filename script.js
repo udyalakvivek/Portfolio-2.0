@@ -9,11 +9,32 @@ function hideslidebar() {
 }
 // send message 
 
-let button = document.querySelector('#button');
-button.addEventListener('click', () => {
-    alert(`Your Message has been sent`);
-    
-});
+// let button = document.querySelector('#button');
+// button.addEventListener('click', () => {
+//     alert(`Your Message has been sent`);
+
+// });
+
+
+function emptyMsg(event) {
+    event.preventDefault()
+    const name = document.querySelector('input[type="text"]').value;
+    const email = document.querySelector('input[type="email"]').value;
+    const message = document.getElementById('input3').value;
+    if (name === '' || email === '' || message === '') {
+        alert('Please fill out all fields.');
+        return false;
+    }
+    else {
+
+        alert(`Your Message has been sent`);
+        document.querySelector('.form').reset();
+        // name.value=""
+        // email.value=""
+        // message.value=""
+    }
+
+}
 
 
 // Dark mode 

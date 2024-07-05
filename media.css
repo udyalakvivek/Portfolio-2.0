@@ -39,7 +39,6 @@
 .card:hover {
   transform: scale(0.98);
   border-radius: 20px;
-  
 }
 
 .cards:hover {
@@ -217,11 +216,11 @@ html {
   .btn-G {
     flex-direction: column;
   }
-  .btn-G .btn-custom {
+  /* .btn-G .btn-custom {
     height: 60px;
     width: 150px;
     font-size: 18px;
-  }
+  } */
   .input {
     width: 100vw;
     flex-direction: column;
@@ -233,14 +232,22 @@ html {
     justify-content: center;
     /* align-items:center; */
   }
+  .imgT img {
+    width: 100%;
+    /* margin-bottom: 10px; */
+  }
   .aboutContent {
     font-size: 13px;
 
     width: 100%;
   }
+  .aboutMe {
+    font-size: 35px !important;
+    font-weight: bold;
+  }
   .btn-G .btn-custom {
     height: 60px;
-    width: 45vw;
+    width: 65vw;
     margin-bottom: 10px;
   }
 }

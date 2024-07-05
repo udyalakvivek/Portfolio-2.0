@@ -23,6 +23,10 @@ nav {
   color: #ffffc7;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
+.Font-Bold {
+  font-weight: bold;
+}
+
 nav ul {
   list-style: none;
   width: 100%;
@@ -159,7 +163,7 @@ nav li:first-child {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 
-  color: #136F63;
+  color: #136f63;
 }
 
 .left h3 {
@@ -274,7 +278,9 @@ nav li:first-child {
   max-width: 400px;
   filter: grayscale(1);
   height: auto;
-  margin: 8px;
+  /* margin: 8px; */
+  margin-bottom: 10px;
+  
 }
 .img {
   object-fit: fill;
@@ -371,8 +377,7 @@ nav li:first-child {
   font-size: 13px;
   text-transform: capitalize;
 }
-.form {
-}
+
 .form input {
   background-color: rgb(244, 233, 215);
   color: #777;
